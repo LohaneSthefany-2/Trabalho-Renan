@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
   font-family: 'frankfurter';
   src: url('../midias/fontes/frankfurter-medium.ttf') format('truetype');
@@ -40,6 +42,10 @@ nav {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav i {
     width: 100px;
     cursor: pointer;
@@ -64,7 +70,10 @@ nav i {
     height: auto;
 }
 
-
+.content {
+    height: 80px;
+    background-color: #DF2849;
+}
 
 .personagens {
     display: block;
@@ -95,6 +104,11 @@ nav i {
 .escolha img {
     width: 20%;
     height: auto;
+    transition: 0.3s;
+}
+
+.escolha img:hover {
+    transform: scale(1.05);
 }
 
 .botao1 {
@@ -136,12 +150,14 @@ nav i {
 
 .historia div {
     display: flex;
+    align-items: center;
 }
 
 .texto {
     margin: auto;
     padding: 150px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Sour Gummy';
     color: white;
 }
 
@@ -187,6 +203,8 @@ nav i {
 .filmes div {
     display: flex;
 }
+
+
 
 .botao3 {
     display: flex;
