@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'frankfurter';
+  src: url('../midias/fontes/frankfurter-medium.ttf') format('truetype');
+}
+
+
+/* Cores do site */
+:root {
+    --cor1      : #DF2849;
+    --fundo     : #fff8e5;
+    --hellok1   : #FF76AF;
+    --hellok2   : #FFAFD1;
+    --pochacco1 : #46B9FD;
+    --pochacco2 : #ACE1F4;
+    --kuromi1   : #c36fdc;
+    --kuromi2   : #E3A6F6;
+    --chococat1 : #58465d;
+    --chococat2 : #b29cb8;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor1);
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+    color: white;
+}
+
+nav i {
+    width: 100px;
+    cursor: pointer;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner .frente {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+.personagens {
+    display: block;
+    background-color: #ffafd1;
+}
+
+.box { 
+    text-align: center;
+    border-radius: 30px;
+    margin: -10px 30px 0 30px;
+}
+
+.personagens > h1 {
+    height: auto;
+    color: white;
+    font-family: 'frankfurter';
+    background-color: #ef75c0;
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    letter-spacing: 10px;
+}
+
+.escolha {
+    display: flex;
+    justify-content: center;
+}
+
+.escolha img {
+    width: 20%;
+    height: auto;
+}
+
+.botao1 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: #ef75c0;
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao1:hover {
+    background-color: #fa8cd0;
+}
+
+.botao1 i {
+    font-size: 3rem;
+    align-content: center;
+}
+
+.historia {
+    background-color: #A3DCEB;
+}
+
+.historia > h1 {
+    height: auto;
+    color: white;
+    font-family: 'frankfurter';
+    background-color:  #46B9FD;
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    letter-spacing: 10px;
+}
+
+.historia div {
+    display: flex;
+}
+
+.texto {
+    margin: auto;
+    padding: 150px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.botao2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: #46B9FD;
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao2 i {
+    font-size: 3rem;
+    align-content: center;
+}
+
+.botao2:hover {
+    background-color: #75c7f6;
+}
+
+.filmes {
+    background-color: var(--kuromi2);
+    margin-top: 10px;
+}
+
+.filmes h1 {
+    height: auto;
+    color: white;
+    font-family: 'frankfurter';
+    letter-spacing: 10px;
+    background-color: var(--kuromi1);
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    margin: 0;
+}
+
+.filmes div {
+    display: flex;
+}
+
+.botao3 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: var(--kuromi1);
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao3 i {
+    font-size: 3rem;
+    align-content: center;
+}
+
+.botao3:hover {
+    background-color: #d98af1;
+}
+
+.produtos {
+    background-color: #e4516c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.produtos h1 {
+    height: auto;
+    color: white;
+    font-family: 'frankfurter';
+    letter-spacing: 10px;
+    background-color: var(--cor1);
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    margin: 0;
+}
+
+.demonstracao {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.container {
+    color: white;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    padding: 10px;
+    width: 420px;
+    height: 300px;
+    font-family: 'frankfurter';
+    letter-spacing: 5px;
+}
+
+.container img {
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+.botao4 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: var(--cor1);
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao4 i {
+    font-size: 3rem;
+    align-content: center;
+}
+
+.botao4:hover {
+    background-color: #ef3d5e;
+}
