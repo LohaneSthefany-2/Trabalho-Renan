@@ -1,0 +1,30 @@
+
+
+/* Cores do site */
+:root {
+    --cor1      : #DF2849;
+    --fundo     : #fff8e5;
+    --hellok1   : #FF76AF;
+    --hellok2   : #FFAFD1;
+    --pochacco1 : #46B9FD;
+    --pochacco2 : #ACE1F4;
+    --kuromi1   : #c36fdc;
+    --kuromi2   : #E3A6F6;
+    --chococat1 : #58465d;
+    --chococat2 : #b29cb8;
+}
+
+
+.p1 {
+    display: flex;
+    margin: 50px;
+    padding: 30px;
+    background-color: var(--hellok1);
+    border-radius: 25px;
+}
+
+.p1 img {
+    width: 20%;
+    background-color: var(--hellok2);
+    border-radius: 15px;
+}
