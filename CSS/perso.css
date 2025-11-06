@@ -5,7 +5,34 @@
   src: url('../midias/fontes/frankfurter-medium.ttf') format('truetype');
 }
 
+body{
+background-color: var(--fundo);
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor1);
+    z-index: 999;
+}
+
+nav i {
+    width: 100px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+}
 /* Cores do site */
 :root {
     --cor1      : #DF2849;
