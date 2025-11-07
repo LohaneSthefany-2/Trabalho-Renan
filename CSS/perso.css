@@ -47,6 +47,11 @@ body {
     --chococat2 : #b29cb8;
 }
 
+.fundo-img {
+    width: 400px;
+    height: 400px
+}
+
 
 .p1 {
     display: flex;
@@ -57,8 +62,7 @@ body {
     border-radius: 25px;
 }
 
-.p1 img {
-    width: 50%;
+.p1 .fundo-img {
     background-color: var(--hellok2);
     border-radius: 15px;
 }
