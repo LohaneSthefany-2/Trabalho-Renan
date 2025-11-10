@@ -47,22 +47,15 @@ body {
     --chococat2 : #b29cb8;
 }
 
-.fundo-img {
-    width: 400px;
-    height: 400px
-}
-
-
 .p1 {
     display: flex;
     align-items: center;
     margin: 50px;
-    padding: 30px;
     background-color: var(--hellok1);
     border-radius: 25px;
 }
 
-.p1 .fundo-img {
+.p1 img {
     background-color: var(--hellok2);
     border-radius: 15px;
 }
@@ -93,7 +86,6 @@ body {
 }
 
 .p2 img {
-    width: 50%;
     background-color: var(--chococat2);
     border-radius: 15px;
 }
@@ -125,7 +117,6 @@ body {
 
 
 .p3 img {
-    width: 50%;
     background-color: var(--kuromi2);
     border-radius: 15px;
 }
@@ -156,7 +147,6 @@ body {
 }
 
 .p4 img {
-    width: 53%;
     background-color: var(--pochacco2);
     border-radius: 15px;
 }
