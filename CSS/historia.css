@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'frankfurter';
+  src: url('../midias/fontes/frankfurter-medium.ttf') format('truetype');
+}
+
+
+:root {
+    --cor1      : #DF2849;
+    --fundo     : #fff8e5;
+    --hellok1   : #FF76AF;
+    --hellok2   : #FFAFD1;
+    --pochacco1 : #46B9FD;
+    --pochacco2 : #ACE1F4;
+    --kuromi1   : #c36fdc;
+    --kuromi2   : #E3A6F6;
+    --chococat1 : #58465d;
+    --chococat2 : #b29cb8;
+}
+
+
+body {
+    background-color: var(--fundo)
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor1);
+    z-index: 999;
+}
+
+nav i {
+    width: 100px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+}
+
+h1 {
+    padding: 60px;
+    font-size: 3rem;
+    font-family: 'Sour Gummy';
+    color: var(--cor1);
+      letter-spacing: 8px;
+}
