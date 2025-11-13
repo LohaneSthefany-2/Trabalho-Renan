@@ -49,10 +49,14 @@ body {
     background-color: var(--fundo);
 }
 
-h1 {
-    padding: 60px;
-    font-size: 3rem;
-    font-family: 'Sour Gummy';
-    color: var(--cor1);
-      letter-spacing: 8px;
+
+.texto img {
+  display: block;
+  margin: 0 auto;
+
 }
+
+.inicio img {
+  float: right;
+}
+
