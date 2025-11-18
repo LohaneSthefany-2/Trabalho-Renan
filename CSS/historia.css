@@ -53,10 +53,10 @@ body {
 .texto img {
   display: block;
   margin: 0 auto;
+  width: 70%;
+  background-color: var(--hellok2);
+  border-radius: 20px;
 
 }
 
-.inicio img {
-  float: right;
-}
 
