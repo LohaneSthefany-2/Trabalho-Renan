@@ -50,13 +50,28 @@ body {
 }
 
 
-.texto img {
+.texto {
+  background-color: var(--hellok2);
+  width: 100%
+}
+
+
+.texto img.p1 {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  margin: 0;
+  width: auto; 
+}
+
+
+.texto img.texto {
   display: block;
   margin: 0 auto;
-  width: 70%;
-  background-color: var(--hellok2);
-  border-radius: 20px;
-
+  width: 60%;
 }
+
+
+
 
 
