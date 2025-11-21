@@ -61,23 +61,21 @@ body {
   justify-content: center;
   position: relative;
   background-color: var(--hellok2);
-  width: 100%
+  width: 100%;
 }
 
-
-.texto img.p1 {
-  position: absolute;
-  place-self: center;
-  left: 5%;
-  margin: 0;
-  width: 15%;
-}
-
-
-.texto img.texto {
+.texto img {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
+}
+
+.texto .p1 {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+  margin: 0;
+  width: 10%;
 }
 
 .criador {
@@ -155,6 +153,7 @@ body {
   margin-top: 0;
   font-family: "frankfurter";
   letter-spacing: 10px;
+  text-align: center;
 }
 
 .sobreassustador p {
