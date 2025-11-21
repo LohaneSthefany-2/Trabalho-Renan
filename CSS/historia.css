@@ -128,29 +128,30 @@ body {
 
 
 .assustador {
+  display: flex; 
   background-color: rgb(253, 146, 5);
   margin-top: 200px;
-  display: flex;
+  padding: 50px;
+  align-items: center;
 }
 
 .assustador img {
   width: 30%;
   height: 10%;
   border-radius: 45%;
+  box-shadow: 0 0 16px 8px rgba(185, 74, 1, 0.925);
+  margin-top: 10%;
 }
 
 
 .sobreassustador {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
   color: white;
 }
 
 
 .sobreassustador h1{
   font-size: 4rem;
-  text-align: center;
   margin-top: 0;
   font-family: "frankfurter";
   letter-spacing: 10px;
@@ -158,7 +159,9 @@ body {
 
 .sobreassustador p {
   font-family: 'comic relief';
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   width: 50%;
-
+  margin: 0 auto;
 }
+
+
