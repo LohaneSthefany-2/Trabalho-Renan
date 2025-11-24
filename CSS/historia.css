@@ -164,3 +164,17 @@ body {
 }
 
 
+.serie {
+  display: flex;
+  background-color: var(--pochacco1);
+  margin: 100px 0;
+  align-items: center;
+  color: white;
+}
+
+.serie .sobre h1 {
+  color: white;
+  letter-spacing: 4px;
+}
+
+
