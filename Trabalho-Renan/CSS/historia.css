@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Comic+Relief:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'frankfurter';
+  src: url('../midias/fontes/frankfurter-medium.ttf') format('truetype');
+}
+
+
+:root {
+  --cor1      : #DF2849;
+  --fundo     : #fff8e5;
+  --hellok1   : #FF76AF;
+  --hellok2   : #FFAFD1;
+  --pochacco1 : #46B9FD;
+  --pochacco2 : #ACE1F4;
+  --kuromi1   : #c36fdc;
+  --kuromi2   : #E3A6F6;
+  --chococat1 : #58465d;
+  --chococat2 : #b29cb8;
+}
+
+::selection {
+  color: var(--cor1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+body {
+  background-color: var(--fundo)
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--cor1);
+  z-index: 999;
+}
+
+nav i {
+  width: 100px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--fundo);
+}
+
+
+.texto {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: var(--hellok2);
+  width: 100%;
+}
+
+.texto img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.texto .p1 {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+  margin: 0;
+  width: 10%;
+}
+
+.criador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.criador .img1 {
+  width: 50%;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre h1 {
+  font-family: 'frankfurter';
+  font-size: 4rem;
+  letter-spacing: 1px;
+  color: black;
+}
+
+
+.sobre p {
+  font-family: 'comic relief';
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: justify;
+}
+
+.img2 {
+  position: absolute;
+  right: 20px;
+  width: 300px;
+  margin-top: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.assustador {
+  display: flex; 
+  background-color: rgb(253, 146, 5);
+  margin-top: 200px;
+  padding: 50px;
+  align-items: center;
+}
+
+.assustador img {
+  width: 30%;
+  height: 10%;
+  border-radius: 45%;
+  box-shadow: 0 0 16px 8px rgba(185, 74, 1, 0.925);
+  margin-top: 10%;
+}
+
+
+.sobreassustador {
+  display: block;
+  color: white;
+}
+
+
+.sobreassustador h1{
+  font-size: 4rem;
+  margin-top: 0;
+  font-family: "frankfurter";
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.sobreassustador p {
+  font-family: 'comic relief';
+  font-size: 1.7rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.serie {
+  display: flex;
+  background-color: var(--pochacco1);
+  margin: 100px 0;
+  align-items: center;
+  color: white;
+}
+
+.serie .sobre h1 {
+  color: white;
+  letter-spacing: 4px;
+}
+
+
