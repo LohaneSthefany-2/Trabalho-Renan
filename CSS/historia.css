@@ -166,15 +166,21 @@ body {
 
 .serie {
   display: flex;
+  flex-direction: column;
   background-color: var(--pochacco1);
   margin: 100px 0;
   align-items: center;
   color: white;
 }
 
-.serie .sobre h1 {
+.serie h1 {
+  font-family: "frankfurter";
   color: white;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
-
+.serie .sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
