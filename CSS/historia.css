@@ -35,6 +35,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  color: white;
 }
 
 header {
@@ -46,12 +47,50 @@ header {
 
 nav i {
   width: 100px;
-  cursor: pointer;
+  cursor: pointer;;
 }
+
+
+.menu {
+    display: none;
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(180, 33, 55);
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+
+.menu li {
+    margin: 10px 0;
+}
+
+
+.menu.active {
+    display: block;
+}
+
+
+.menu li a {
+    text-decoration: none;
+    font-family: 'frankfurter';
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+
+.menu li a:hover {
+    transform: scale(1.2);
+    color: #b9b5b6;
+}
+
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: var(--fundo);
 }
 
@@ -183,4 +222,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+
+.serie .sobre img{
+  border-radius: 20px;
 }
