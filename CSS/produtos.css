@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Comic+Relief:wght@400;700&display=swap');
 
 @font-face {
   font-family: 'frankfurter';
@@ -101,7 +101,104 @@ nav i {
 
 .bemvindo p{
     text-align: center;
-    font-family: 'frankfurter';
-    font-size: 20px;
+    font-family: 'comic relief';
+    font-size: 30px;
     margin-top: 20px;
+}
+
+
+.produtos{
+    display: flex;
+}
+
+
+.produtos img{
+    width: 35%;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.205);
+}
+
+
+.produtos h1 {
+    padding: 60px 20px;
+    font-family: 'frankfurter';
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.produtos ul{
+    font-family: 'Sour Gummy';
+    font-size: 40px;
+    padding: 60px;
+}
+
+
+.shoppe {
+    display: flex;
+}
+
+
+.texto {
+    text-align: center;
+    margin-top: 60px;
+    padding: 25px;
+    background-color: black;
+}
+
+
+.texto a {
+    color: white;
+}
+
+
+.texto a:hover{
+    color: rgb(154, 153, 153);
+    cursor: pointer;
+}
+
+.shoppe {
+    background-color: rgb(141, 141, 141); 
+    padding: 30px;
+}
+
+
+.shoppe img:hover{
+    transform: scale(1.2);
+}
+
+.shoppe img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+}
+
+
+.agradecimentos{
+    font-family: 'frankfurter';
+    color: #FF76AF;
+    text-align: center;
+    padding: 100px;
+    letter-spacing: 3px;
+}
+
+
+.final{
+    background-color: #882033;
+    width: 100%;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+
+.final p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'SourGummy';
+    margin: 10px;
+    color: white;
 }

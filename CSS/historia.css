@@ -45,7 +45,7 @@ header {
   z-index: 999;
 }
 
-nav i {
+.nav i {
   width: 100px;
   cursor: pointer;;
 }
