@@ -45,16 +45,50 @@ header {
 }
 
 
-.olaseries img {
-    border-radius: 30px;
-    margin: 20px;
-    box-shadow: 0 0 16px 8px rgb(255, 163, 224);
-}
-
-
 .olaseries h1{
-    font-family: 'frankfurter';
     letter-spacing: 3px;
     margin: 10px;
     text-align: center;
+    font-size: 60px;
+    font-family: 'frankfurter';
+}
+
+
+.olaseries p{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    font-family: 'comic relief';
+}
+
+
+.banner1 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+
+.tituloserie {
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'frankfurter';
+    font-size: 40px;
+}
+
+.series {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+}
+
+.series img {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    object-fit: contain;
+     box-shadow: 0 0 16px 8px rgb(254, 21, 180);
 }
